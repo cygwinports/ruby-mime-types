@@ -1,0 +1,15 @@
+inherit rubygem
+
+NAME="ruby-mime-types"
+VERSION=1.21
+RELEASE=1
+CATEGORY="Ruby"
+SUMMARY="Ruby MIME types extension"
+DESCRIPTION="This library allows for the identification of a file's likely MIME
+content type. The identification of MIME content type is based on a file's
+filename extensions. MIME types are used in MIME-compliant communications, as
+in e-mail or HTTP traffic, to indicate the type of content which is
+transmitted. MIME::Types provides the ability for detailed information about
+MIME entities to be determined and used programmatically."
+
+DOCS="README.rdoc"
