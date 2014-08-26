@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-mime-types"
-VERSION=1.23
+VERSION=1.25.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby MIME types extension"
@@ -12,4 +12,9 @@ in e-mail or HTTP traffic, to indicate the type of content which is
 transmitted. MIME::Types provides the ability for detailed information about
 MIME entities to be determined and used programmatically."
 
-DOCS="README.rdoc"
+ARCH=noarch
+
+PKG_NAMES="${NAME} ${NAME}-doc"
+ruby_mime_types_CONTENTS="${RUBYGEM_INSTDIR#/} ${RUBYGEM_SPEC#/}"
+ruby_mime_types_doc_CONTENTS=${RUBYGEM_DOCDIR#/}
+
