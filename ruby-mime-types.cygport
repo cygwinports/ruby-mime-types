@@ -1,7 +1,7 @@
 inherit rubygem
 
 NAME="ruby-mime-types"
-VERSION=1.25.1
+VERSION=2.6.1
 RELEASE=1
 CATEGORY="Ruby"
 SUMMARY="Ruby MIME types extension"
